@@ -2,6 +2,6 @@
 
 ```bash
 docker compose up -d
-docker compose exec web ruby capybara.rb
-docker compose exec web ruby test_case.rb
+docker compose exec web bundle exec ruby capybara.rb
+docker compose exec web bundle exec ruby test_case.rb
 ```
